@@ -183,4 +183,13 @@ class OrderController extends Controller
         return redirect()->back();
     }
 
+    public function deleteOrder($id){
+      Order::findOrFail($id)->delete();
+
+        \session()->flash('notifSuccess', [
+            "type" => "danger",
+            "notif" => "Commande supprimée"]);
+        return redirect()->back();
+    }
+
 }

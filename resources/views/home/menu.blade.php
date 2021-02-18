@@ -9,7 +9,7 @@
             </div>
             <div id="menuDrinks" class="scrollspy">
                 <h3 class="text-center py-4 text-success font-weight-bold">Boissons</h3>
-                <div class="row row-cols-md-4 m-2">
+                <div class="row row-cols-md-3 m-2">
                     @include('menu.drink')
                 </div>
             </div>

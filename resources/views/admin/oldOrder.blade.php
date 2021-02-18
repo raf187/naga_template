@@ -6,6 +6,14 @@
                 <div class="card-body px-2">
                     <div class="table-responsive px-0">
                         <h4 class="text-center font-weight-bold pb-4">Historique des commandes</h4>
+                        @if(session()->has('notifSuccess'))
+                            <div class="alertFade alert alert-{!! session()->get('notifSuccess.type') !!} text-center py-3">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+                                    &times;
+                                </button>
+                                <span>{!! session()->get('notifSuccess.notif') !!}</span>
+                            </div>
+                        @endif
                         <table id="exemple" class="table table-striped table-border" style="width:100%">
                             <thead>
                             <tr>
@@ -16,6 +24,9 @@
                                 <th>Type et date</th>
                                 <th>Date commande</th>
                                 <th>Info TR</th>
+                                @role('superadministrator')
+                                <th>Supprimer</th>
+                                @endrole
                             </tr>
                             </thead>
                             <tfoot>
@@ -27,6 +38,9 @@
                                 <th>Type et date</th>
                                 <th>Date commande</th>
                                 <th>Info TR</th>
+                                @role('superadministrator')
+                                <th>Supprimer</th>
+                                @endrole
                             </tr>
                             </tfoot>
                             <tbody>
@@ -82,7 +96,25 @@
                                             <p>Payé en ligne</p>
                                         @endif
                                     </td>
+                                    @role('superadministrator')
+                                    <td class="text-center">
+                                      <a href="" data-toggle="modal" data-target="#deleteOrderConfirm"><i class="far fa-trash-alt text-danger"></i></a>
+                                    </td>
                                 </tr>
+                                <div class="modal fade" id="deleteOrderConfirm" tabindex="1" role="dialog" aria-labelledby="labeldeleteOrderConfirm" aria-hidden="true">
+                                    <div class="modal-dialog modal-sm text-center" role="document">
+                                        <div class="modal-content col-md-12">
+                                            <div class="modal-body px-3">
+                                                <p>Êtes-vous sûr de vouloir supprimer cette commande?</p>
+                                            </div>
+                                            <div class="modal-footer row">
+                                              <button class="btn btn-light mr-4" data-dismiss="modal">Annuler</button>
+                                              <a class="btn btn-danger" href="/admin/delete/{{ $order->id }}">Supprimer</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                @endrole
                             @endforeach
                             </tbody>
                         </table>

@@ -9,24 +9,24 @@
     <meta http-equiv="refresh" content="600"/>
 
     <!-- meta description recherche-->
-    <meta name="Description" content="Le restaurant Nâga à Sophia vous fait déguster le fameux lok-lak en 6 versions  au poivre du Kampot,  pour le plaisir de toutes les papilles.
+    <meta name="Description" content="Le restaurant Nâga à Nice vous fait déguster le fameux lok-lak en 6 versions  au poivre du Kampot,  pour le plaisir de toutes les papilles.
         Cousiné à la minute devant vous avec des produit frais de qualité.">
 
     <!-- Twitter Card meta -->
     <meta name="twitter:card" content="/media/metaResaux.png">
-    <meta name="twitter:title" content="NÂGA Lok-Lak Sophia">
-    <meta name="twitter:description" content="Le restaurant Nâga à Sophia vous fait déguster le fameux lok-lak avec ces 6 versions au poivre du Kampot,  pour le plaisir de toutes les papilles.
+    <meta name="twitter:title" content="NÂGA Lok-Lak Nice">
+    <meta name="twitter:description" content="Le restaurant Nâga à Nice vous fait déguster le fameux lok-lak avec ces 6 versions au poivre du Kampot,  pour le plaisir de toutes les papilles.
         Cousiné à la minute devant vous avec des produit frais de qualité">
-    <meta name="twitter:url" content="http://www.naga-sophia.com/" />
-    <meta name="twitter:domain" content="http://www.naga-sophia.com/" />
+    <meta name="twitter:url" content="http://www.naga-nice.com/" />
+    <meta name="twitter:domain" content="http://www.naga-nice.com/" />
     <!-- meta pour Facebook -->
 
-    <meta property="og:title" content="NÂGA Lok-Lak Sophia" />
-    <meta property="og:url" content="http://www.naga-sophia.com/" />
+    <meta property="og:title" content="NÂGA Lok-Lak Nice" />
+    <meta property="og:url" content="http://www.naga-nice.com/" />
     <meta property="og:image" content="/media/metaResaux.png" />
-    <meta property="og:description" content="Le restaurant Nâga à Sophia vous fait déguster le fameux lok-lak avec ces 6 versions au poivre du Kampot,  pour le plaisir de toutes les papilles.
+    <meta property="og:description" content="Le restaurant Nâga à nice vous fait déguster le fameux lok-lak avec ces 6 versions au poivre du Kampot,  pour le plaisir de toutes les papilles.
         Cousiné à la minute devant vous avec des produit frais de qualité" />
-    <meta property="og:site_name" content="NÂGA-SOPHIA" />
+    <meta property="og:site_name" content="NÂGA-NICE" />
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">

@@ -14,6 +14,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PayGreenController;
 use App\Http\Controllers\PrintController;
 use App\Http\Controllers\RestoPAY;
+use App\Http\Controllers\DeleteOrder;
 use App\Http\Controllers\RevenueController;
 use App\Http\Controllers\SchedulesController;
 //use App\Http\Controllers\TRestoController;
@@ -140,6 +141,9 @@ Route::group(['middleware'=>'role:superadministrator'], function (){
     Route::get('/admin/retrait-livraisons', [ClickAndCollectController::class, 'show'])->name('clickAndCollect');
     Route::post('/admim/click&collect-time', [ClickAndCollectController::class, 'saveTime']);
     Route::get('/admim/click&collect-time-delete/{id}', [ClickAndCollectController::class, 'delete']);
+
+    Route::get('/admin/delete/{id}', [OrderController::class, 'deleteOrder']);
+
 });
 
 

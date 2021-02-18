@@ -23,7 +23,7 @@ class DatesController extends Controller
         $times = strtotime('+1 hours, +15 minutes', $time);
         $dates = Dates::orderBy('closingDate', 'asc')->get();
         $less15m = date("G:i:s", $times);
-        $collectTimeToday = ClickAndCollect::orderBy('clickAndCollectTime', 'asc')->get('clickAndCollectTime')->Where('clickAndCollectTime','>',$less15m);
+        $collectTimeToday = ClickAndCollect::orderBy('clickAndCollectTime', 'asc')->Where('clickAndCollectTime','>',$less15m)->get();
         $collectTimeTomorow = ClickAndCollect::orderBy('clickAndCollectTime', 'asc')->get('clickAndCollectTime')->all();
         return compact('dates', 'collectTimeToday', 'collectTimeTomorow');
     }

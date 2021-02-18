@@ -8,7 +8,7 @@
             </button>
     </form>
 <div class="display-3" id="ticketBeforePrint">
-    <div id="ticket" class="bg-white pb-5 px-3">
+    <div id="ticket" class="bg-white pb-5 px-5">
         <div class="d-flex justify-content-center m-0 p-0">
             <img class="m-0 p-0" src="{{ asset('/media/logoTicket.png') }}" style="width:580px" alt="logo naga">
         </div>

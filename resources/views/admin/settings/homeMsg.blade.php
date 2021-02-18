@@ -2,7 +2,7 @@
 @section('adminContent')
     <div class="p-5">
         <div class="border-0 shadow-lg bg-light rounded col-md-8 offset-md-2 py-4">
-            <h4 class="text-center font-weight-bold pb-4">Message de info acueill</h4>
+            <h4 class="text-center font-weight-bold pb-4">Message de info accueil</h4>
             <form method="post" id="homeMsgStatus" action="/admin/home-info-activation/{{$msgInfo->id}}">
                 @csrf
                 <input type="hidden" id="isActived" name="isActived" value="@if($msgInfo->isActived == 0) 1 @else 0 @endif">

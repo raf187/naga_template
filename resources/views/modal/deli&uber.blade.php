@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="modal-footer d-flex justify-content-end">
-                <button type="button" class="btn btn-light col-md-3" data-dismiss="modal">Anuller</button>
+                <button type="button" class="btn btn-light col-md-3" data-dismiss="modal">Annuler</button>
             </div>
         </div>
     </div>
