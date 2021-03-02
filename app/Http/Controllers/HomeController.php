@@ -7,7 +7,7 @@ use App\Models\ExtrasBoll;
 use App\Models\HomeMsg;
 use App\Models\Menu;
 use App\Models\Order;
-use App\Models\Schedules;
+use App\Models\OpenTime;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -32,11 +32,12 @@ class HomeController extends Controller
 
     public function menuShow()
     {
+      //dd(session()->get('newUserAddress'));
         $orderList = Order::where('paymentStatus',1)->orderBy('created_at', 'desc')->where('user_id', \auth()->id())->limit(10)->get();
         $menuOrder = Menu::all();
         $user = Auth::user();
         $homeMsg = HomeMsg::first();
-        $schedules = Schedules::first();
+        $schedules = OpenTime::all();
         $drinks = Menu::where('type', 'drink')->get();
         $bolls = Menu::where('type', 'food')->get();
         $iceCream = Menu::where('type', 'iceCream')->get();

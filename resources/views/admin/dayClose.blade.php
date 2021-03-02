@@ -32,7 +32,7 @@
                     <li class="border-bottom-light list-group-item d-flex justify-content-around">
                         {{ \Carbon\Carbon::parse($date->closingDate)->format('d/m/Y') }}
                         <a
-                            class="text-danger text-decoration-none deleteLink"
+                            class="text-danger text-decoration-none deleteLink deleteBtnConfirm"
                             href="/admin/jour-fermeture/{{ $date->id }}"><i class="fas fa-trash pr-3"></i>Effacer</a>
                     </li>
                 @endforeach

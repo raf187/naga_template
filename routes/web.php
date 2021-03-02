@@ -10,13 +10,12 @@ use App\Http\Controllers\HomeMsgController;
 use App\Http\Controllers\InfoServiceController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\OpenTimeController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PayGreenController;
 use App\Http\Controllers\PrintController;
 use App\Http\Controllers\RestoPAY;
-use App\Http\Controllers\DeleteOrder;
 use App\Http\Controllers\RevenueController;
-use App\Http\Controllers\SchedulesController;
 //use App\Http\Controllers\TRestoController;
 use App\Http\Controllers\UsersController;
 use App\Models\ClickAndCollect;
@@ -136,13 +135,15 @@ Route::group(['middleware'=>'role:superadministrator'], function (){
     Route::get('/admin/home-message', [HomeMsgController::class, 'homeMsg'])->name('homeMsg');
     Route::post('/admin/home-info/{id}', [HomeMsgController::class, 'update']);
     Route::post('/admin/home-info-activation/{id}', [HomeMsgController::class, 'updateStatus']);
-    Route::get('/admin/horaires', [SchedulesController::class, 'show'])->name('schedules');
-    Route::post('/admin/schedules', [SchedulesController::class, 'save']);
+    Route::get('/admin/horaires', [OpenTimeController::class, 'show'])->name('schedules');
+    Route::post('/admin/schedules/{id}', [OpenTimeController::class, 'save']);
     Route::get('/admin/retrait-livraisons', [ClickAndCollectController::class, 'show'])->name('clickAndCollect');
     Route::post('/admim/click&collect-time', [ClickAndCollectController::class, 'saveTime']);
     Route::get('/admim/click&collect-time-delete/{id}', [ClickAndCollectController::class, 'delete']);
 
     Route::get('/admin/delete/{id}', [OrderController::class, 'deleteOrder']);
+    Route::get('/admin/prod-stock', [MenuController::class, 'offStock'])->name('offStock');
+    Route::post('/admin/prod-stock/{id}', [MenuController::class, 'offStockUpdate']);
 
 });
 

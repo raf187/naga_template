@@ -89,4 +89,16 @@ class MenuController extends Controller
         ]);
         return compact('cart', 'subQty', 'total');
     }
+
+    public function offStock(){
+        $product = Menu::all();
+        return view('admin.settings.offStock', compact('product'));
+    }
+
+    public function offStockUpdate($id){
+        Menu::findOrFail($id)->update([
+            "off_stock"=>\request('offStock')
+        ]);
+        return redirect()->back();
+    }
 }

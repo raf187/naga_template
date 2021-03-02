@@ -47,7 +47,7 @@
                                             <li class="border-bottom-light list-group-item d-flex justify-content-around">
                                                 {{ \Carbon\Carbon::parse($pick->clickAndCollectTime)->format('H:i') }}
                                                 <a
-                                                    class="text-danger text-decoration-none deleteLink"
+                                                    class="text-danger text-decoration-none deleteLink deleteBtnConfirm"
                                                     href="/admim/click&collect-time-delete/{{ $pick->id }}"><i class="fas fa-trash pr-3"></i>Effacer</a>
                                             </li>
                                             @endif

@@ -11,6 +11,8 @@ $(document).ready(function () {
     anim.printTicket();
     anim.infoService();
     anim.updatePayMethod()
+    anim.deleteConfirm();
+
 
     const alert = new Alert();
     alert.beforeCreateAdmin('#newAdmin', '#adminSingInForm');

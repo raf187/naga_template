@@ -55,24 +55,10 @@
                                 <td>
                                     <div class="d-flex justify-content-around">
                                         <a href="/admin/modifier-admin/{{ $admin->id }}"><i class="far fa-edit text-success mr-4"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#supAdmin"><i class="far fa-trash-alt text-danger"></i></a>
+                                        <a class="deleteBtnConfirm" href="/admin/sup-admin/{{ $admin->id }}"><i class="far fa-trash-alt text-danger"></i></a>
                                     </div>
                                 </td>
                             </tr>
-                            <div class="modal fade" id="supAdmin" tabindex="1" role="dialog" aria-labelledby="labelsupAdmin" aria-hidden="true">
-                                <div class="modal-dialog modal-sm text-center" role="document">
-                                    <div class="modal-content col-md-12">
-                                        <div class="modal-body px-3">
-                                            <h3 class="text-center text-success font-weight-bold pb-3">Utilisateurs</h3>
-                                            <p>Êtes-vous sûr de vouloir supprimer cet adminstrateur?</p>
-                                        </div>
-                                        <div class="modal-footer row">
-                                            <button class="btn btn-light mr-4" data-dismiss="modal">Annuler</button>
-                                            <a class="btn btn-danger" href="/admin/sup-admin/{{ $admin->id }}">Supprimer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         @endforeach
                         </tbody>
                     </table>

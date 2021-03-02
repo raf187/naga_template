@@ -24,6 +24,20 @@ class Animation{
         });
     }
 
+    deleteConfirm(){
+        var buttons = document.querySelectorAll(".deleteBtnConfirm");
+        for (var i = 0; i < buttons.length; i++)
+        {
+            buttons[i].addEventListener("click", function (e){
+                e.preventDefault();
+                let conf = confirm("Êtes-vous sûr de vouloir supprimer ?");
+                if (conf) {
+                    window.location.href = $(this).attr("href");
+                }
+            })
+        }
+    }
+
     msgSession(div, timeOut){
         setTimeout(function (){
             $(div).fadeOut(1000);

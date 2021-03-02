@@ -43,7 +43,11 @@
                  @endif
              </div>
              <div class="mx-auto">
-                 @include('menu.btnAddToCart')
+               @if($boll->off_stock == 1)
+                <p class="card-text text-center text-danger py-3 text-bold">Indisponible pour le moment</p>
+               @else
+                @include('menu.btnAddToCart')
+               @endif
              </div>
          </div>
      </form>

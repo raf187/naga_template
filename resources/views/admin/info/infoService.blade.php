@@ -27,23 +27,9 @@
                                     </span>
                                     <div class="col-4 text-center">
                                         <a href="/admin/modifier-info/{{ $info->id }}"><i class="far fa-edit text-success mr-4"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#supInfo" class="text-danger deleteLink"><i class="fas fa-trash pr-3"></i></a>
+                                        <a href="/admin/delete-info/{{$info->id}}" class="text-danger deleteLink deleteBtnConfirm"><i class="fas fa-trash pr-3"></i></a>
                                     </div>
                                 </li>
-                                <div class="modal fade" id="supInfo" tabindex="1" role="dialog" aria-labelledby="labelsupInfo" aria-hidden="true">
-                                    <div class="modal-dialog modal-sm text-center" role="document">
-                                        <div class="modal-content col-md-12">
-                                            <div class="modal-body px-3">
-                                                <h3 class="text-center text-success font-weight-bold pb-3">Info services</h3>
-                                                <p>Êtes-vous sûr de vouloir supprimer?</p>
-                                            </div>
-                                            <div class="modal-footer row">
-                                                <button class="btn btn-light mr-4" data-dismiss="modal">Annuler</button>
-                                                <a class="btn btn-danger" href="/admin/delete-info/{{$info->id}}">Supprimer</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             @endforeach
                         @else
                         <li class="border-bottom-light list-group-item d-flex justify-content-around">

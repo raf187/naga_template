@@ -98,22 +98,9 @@
                                 </td>
                                 @role('superadministrator')
                                 <td class="text-center">
-                                  <a href="" data-toggle="modal" data-target="#deleteOrderConfirm"><i class="far fa-trash-alt text-danger"></i></a>
+                                    <a class="deleteBtnConfirm" href="/admin/delete/{{ $order->id }}"><i class="far fa-trash-alt text-danger"></i></a>
                                 </td>
                             </tr>
-                            <div class="modal fade" id="deleteOrderConfirm" tabindex="1" role="dialog" aria-labelledby="labeldeleteOrderConfirm" aria-hidden="true">
-                                <div class="modal-dialog modal-sm text-center" role="document">
-                                    <div class="modal-content col-md-12">
-                                        <div class="modal-body px-3">
-                                            <p>Êtes-vous sûr de vouloir supprimer cette commande?</p>
-                                        </div>
-                                        <div class="modal-footer row">
-                                          <button class="btn btn-light mr-4" data-dismiss="modal">Annuler</button>
-                                          <a class="btn btn-danger" href="/admin/delete/{{ $order->id }}">Supprimer</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             @endrole
                         @endforeach
                         </tbody>

@@ -202,6 +202,14 @@
                                     </p>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="{{ route('offStock') }}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>
+                                        Disponiblité
+                                    </p>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     @endrole
@@ -317,8 +325,8 @@
     $(function () {
 
         var table = $('#exemple').DataTable({
-            language: {
-                url: 'http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json'
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json"
             },
             order:[[5,"desc"]]
         });
@@ -329,8 +337,8 @@
     $(document).ready(function() {
         $('#revenue').DataTable( {
             dom: 'Bfrtip',
-            language: {
-                url: 'http://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json'
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/French.json"
             },
             order:[[0,"desc"]],
             buttons: [
