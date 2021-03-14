@@ -23,7 +23,7 @@
                             <th>Prix</th>
                             <th>Heure de retrait</th>
                             <th>Date commande</th>
-                            <th>Info TR</th>
+                            <th>Info<br>paiement</th>
                             @role('superadministrator')
                             <th>Supprimer</th>
                             @endrole
@@ -37,7 +37,7 @@
                             <th>Prix</th>
                             <th>Heure de retrait</th>
                             <th>Date commande</th>
-                            <th>Info TR</th>
+                            <th>Info<br>paiement</th>
                             @role('superadministrator')
                             <th>Supprimer</th>
                             @endrole

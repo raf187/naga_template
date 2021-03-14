@@ -44,9 +44,12 @@ class AjaxCalls{
             })
         })
     }
-    payUpdate(){
+    payUpdateAuto(){
         setInterval(function (){
             $.get('/ordersNotComfirmed')
         }, 60000)
+    }
+    payUpdate(){
+        $.get('/ordersNotComfirmed')
     }
 }

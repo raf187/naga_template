@@ -15,7 +15,7 @@
                             <th>Prix</th>
                             <th>Type et date</th>
                             <th>Heure de retrait</th>
-                            <th>Info TR</th>
+                            <th>Info<br>paiement</th>
                         </tr>
                         </thead>
                         <tfoot>
@@ -26,7 +26,7 @@
                             <th>Prix</th>
                             <th>Heure de retrait</th>
                             <th>Date commande</th>
-                            <th>Info TR</th>
+                            <th>Info<br>paiement</th>
                         </tr>
                         </tfoot>
                         <tbody>

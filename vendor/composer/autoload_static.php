@@ -136,6 +136,10 @@ class ComposerStaticInit7254e18c9fadb9bffc64e615da4b1532
             'Laravel\\Tinker\\' => 15,
             'Laratrust\\' => 10,
         ),
+        'J' => 
+        array (
+            'Jenssegers\\Date\\' => 16,
+        ),
         'I' => 
         array (
             'InfyOm\\GeneratorHelpers\\' => 24,
@@ -422,6 +426,10 @@ class ComposerStaticInit7254e18c9fadb9bffc64e615da4b1532
         array (
             0 => __DIR__ . '/..' . '/santigarcor/laratrust/src',
         ),
+        'Jenssegers\\Date\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jenssegers/date/src',
+        ),
         'InfyOm\\GeneratorHelpers\\' => 
         array (
             0 => __DIR__ . '/..' . '/infyomlabs/laravel-generator-helpers/src',
@@ -565,11 +573,13 @@ class ComposerStaticInit7254e18c9fadb9bffc64e615da4b1532
         'App\\Http\\Controllers\\ClickAndCollectController' => __DIR__ . '/../..' . '/app/Http/Controllers/ClickAndCollectController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\DatesController' => __DIR__ . '/../..' . '/app/Http/Controllers/DatesController.php',
+        'App\\Http\\Controllers\\DeliveryController' => __DIR__ . '/../..' . '/app/Http/Controllers/DeliveryController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\HomeMsgController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeMsgController.php',
         'App\\Http\\Controllers\\InfoServiceController' => __DIR__ . '/../..' . '/app/Http/Controllers/InfoServiceController.php',
         'App\\Http\\Controllers\\MenuController' => __DIR__ . '/../..' . '/app/Http/Controllers/MenuController.php',
         'App\\Http\\Controllers\\NewsletterController' => __DIR__ . '/../..' . '/app/Http/Controllers/NewsletterController.php',
+        'App\\Http\\Controllers\\OpenTimeController' => __DIR__ . '/../..' . '/app/Http/Controllers/OpenTimeController.php',
         'App\\Http\\Controllers\\OrderController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrderController.php',
         'App\\Http\\Controllers\\PayGreenController' => __DIR__ . '/../..' . '/app/Http/Controllers/PayGreenController.php',
         'App\\Http\\Controllers\\PayGreenController\\Exceptions\\NegativeAmountException' => __DIR__ . '/../..' . '/app/Http/Controllers/PayGreenController/Exceptions/NegativeAmountException.php',
@@ -581,7 +591,6 @@ class ComposerStaticInit7254e18c9fadb9bffc64e615da4b1532
         'App\\Http\\Controllers\\PrintController' => __DIR__ . '/../..' . '/app/Http/Controllers/PrintController.php',
         'App\\Http\\Controllers\\RestoPAY' => __DIR__ . '/../..' . '/app/Http/Controllers/RestoPAY.php',
         'App\\Http\\Controllers\\RevenueController' => __DIR__ . '/../..' . '/app/Http/Controllers/RevenueController.php',
-        'App\\Http\\Controllers\\SchedulesController' => __DIR__ . '/../..' . '/app/Http/Controllers/SchedulesController.php',
         'App\\Http\\Controllers\\UsersController' => __DIR__ . '/../..' . '/app/Http/Controllers/UsersController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
@@ -602,6 +611,7 @@ class ComposerStaticInit7254e18c9fadb9bffc64e615da4b1532
         'App\\Models\\InfoService' => __DIR__ . '/../..' . '/app/Models/InfoService.php',
         'App\\Models\\Menu' => __DIR__ . '/../..' . '/app/Models/Menu.php',
         'App\\Models\\OldCustomers' => __DIR__ . '/../..' . '/app/Models/OldCustomers.php',
+        'App\\Models\\OpenTime' => __DIR__ . '/../..' . '/app/Models/OpenTime.php',
         'App\\Models\\Order' => __DIR__ . '/../..' . '/app/Models/Order.php',
         'App\\Models\\Permission' => __DIR__ . '/../..' . '/app/Models/Permission.php',
         'App\\Models\\Role' => __DIR__ . '/../..' . '/app/Models/Role.php',
@@ -2582,6 +2592,8 @@ class ComposerStaticInit7254e18c9fadb9bffc64e615da4b1532
         'InfyOm\\AdminLTEPreset\\AdminLTEPreset' => __DIR__ . '/..' . '/infyomlabs/laravel-ui-adminlte/src/AdminLTEPreset.php',
         'InfyOm\\AdminLTEPreset\\AdminLTEPresetServiceProvider' => __DIR__ . '/..' . '/infyomlabs/laravel-ui-adminlte/src/AdminLTEPresetServiceProvider.php',
         'InfyOm\\GeneratorHelpers\\LaravelUtils' => __DIR__ . '/..' . '/infyomlabs/laravel-generator-helpers/src/LaravelUtils.php',
+        'Jenssegers\\Date\\Date' => __DIR__ . '/..' . '/jenssegers/date/src/Date.php',
+        'Jenssegers\\Date\\DateServiceProvider' => __DIR__ . '/..' . '/jenssegers/date/src/DateServiceProvider.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Laratrust\\Checkers\\LaratrustCheckerManager' => __DIR__ . '/..' . '/santigarcor/laratrust/src/Checkers/LaratrustCheckerManager.php',
         'Laratrust\\Checkers\\Role\\LaratrustRoleChecker' => __DIR__ . '/..' . '/santigarcor/laratrust/src/Checkers/Role/LaratrustRoleChecker.php',

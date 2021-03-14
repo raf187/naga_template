@@ -5,6 +5,7 @@ $(window).ready(function () {
     ajax.singIn();
     ajax.logIn();
     ajax.payUpdate();
+    ajax.payUpdateAuto();
 
     const anim = new Animation();
     anim.btnAnimationAddToCart();
@@ -20,10 +21,10 @@ $(window).ready(function () {
     update.removeReadonly();
 
     const date = new DateFetch();
-    date.getdates();
-    date.collectTime();
-    $('#deliDate').change(()=>{
+    date.deliDate();
+    $(document).change('#deliTime', function(){
         $('#deliTime').empty();
+        $('.deliTimeInput').removeClass('d-none');
         date.collectTime();
     })
 

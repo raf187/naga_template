@@ -164,6 +164,7 @@ return [
         Laratrust\LaratrustServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
         Darryldecode\Cart\CartServiceProvider::class,
+        Jenssegers\Date\DateServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -232,6 +233,7 @@ return [
         'Laratrust'   => Laratrust\LaratrustFacade::class,
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
         'Cart' => Darryldecode\Cart\Facades\CartFacade::class,
+        'Date' => Jenssegers\Date\Date::class,
 
     ],
 

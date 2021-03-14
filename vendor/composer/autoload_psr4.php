@@ -63,6 +63,7 @@ return array(
     'Laravel\\Ui\\' => array($vendorDir . '/laravel/ui/src'),
     'Laravel\\Tinker\\' => array($vendorDir . '/laravel/tinker/src'),
     'Laratrust\\' => array($vendorDir . '/santigarcor/laratrust/src'),
+    'Jenssegers\\Date\\' => array($vendorDir . '/jenssegers/date/src'),
     'InfyOm\\GeneratorHelpers\\' => array($vendorDir . '/infyomlabs/laravel-generator-helpers/src'),
     'InfyOm\\AdminLTEPreset\\' => array($vendorDir . '/infyomlabs/laravel-ui-adminlte/src'),
     'Illuminate\\Support\\' => array($vendorDir . '/laravel/framework/src/Illuminate/Macroable', $vendorDir . '/laravel/framework/src/Illuminate/Collections'),

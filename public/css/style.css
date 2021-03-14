@@ -7,7 +7,9 @@
     font-family: "Lora";
     src: url("/font/Lora-Italic.ttf") format("truetype");
 }
-
+.modal {
+  overflow: auto !important;
+}
 
 *,
 *:before,
@@ -15,6 +17,23 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.separateur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ligne {
+  margin: 20px 5px;
+  width: 100px;
+  height: 2px;
+  background-color: #ebebeb;
+}
+
+.separateur i {
+  color: #4fba3d;
 }
 
 img{
@@ -51,7 +70,7 @@ nav ul{
 
 #accueil {
     height: 900px;
-    background-image: url('/media/bg.jpg');
+    background-image: url("/media/bg.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -146,7 +165,7 @@ nav ul{
 }
 
 #histoire {
-    background-image: url('/media/riceField.jpg');
+    background-image: url("/media/riceField.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -467,6 +486,10 @@ table .pagination{
         width: 150px;
     }
 
+    #menu .menuTitle{
+        font-size: 34px;
+    }
+
     #menuSmart{
         display: block;
         font-size: 28px;
@@ -502,9 +525,26 @@ table .pagination{
     .modal{
         position: absolute;
     }
+    #navMobilMenu{
+        display: block;
+    }
+    #menuBoll{
+        padding-top: 60px;
+    }
+    #menuDrinks{
+        padding-top: 60px;
+    }
+    #menuIcecream{
+        padding-top: 60px;
+    }
+    #menu .menuCart{
+        top: 25px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
 }
 
-@media screen and (max-width : 991px){
+@media screen and (min-width : 701px)and (max-width : 991px){
     #navMobilMenu{
         display: block;
     }
@@ -517,7 +557,9 @@ table .pagination{
     #menuIcecream{
           padding-top: 90px;
       }
-    #menuCart{
-           padding-top: -80px;
-       }
+    #menu .menuCart{
+        top: 45px;
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
 }

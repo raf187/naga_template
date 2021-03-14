@@ -31,7 +31,7 @@
                 <option disabled selected value="">Date du retrait</option>
             </select>
         </div>
-        <div class="input-group px-1">
+        <div class="input-group px-1 deliTimeInput d-none">
             <div class="input-group-prepend">
                 <label class="deliTimeBorder input-group-text" for="deliTime">
                     <i class="far fa-clock"></i>

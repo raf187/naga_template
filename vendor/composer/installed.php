@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => '6001a1e057b6e990700d6a5e5059fbf6014cf9d7',
+    'reference' => '35dd3a8cb1cb42be20304f79df202095d753c659',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -467,6 +467,15 @@
       ),
       'reference' => '3dd58ff3db8b4def9185b3b3199ed0205d4e2177',
     ),
+    'jenssegers/date' => 
+    array (
+      'pretty_version' => 'v4.0.0',
+      'version' => '4.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '506f86096e0b512f9ece6ad0ccae62b03c125771',
+    ),
     'kkszymanowski/traitor' => 
     array (
       'pretty_version' => '0.2.5',
@@ -503,12 +512,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => '6001a1e057b6e990700d6a5e5059fbf6014cf9d7',
+      'reference' => '35dd3a8cb1cb42be20304f79df202095d753c659',
     ),
     'laravel/tinker' => 
     array (

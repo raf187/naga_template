@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     const ajax = new AjaxCalls();
     ajax.payUpdate();
+    ajax.payUpdateAuto();
 
     const anim = new Animation();
     anim.msgSession('.alertFade',5000);
