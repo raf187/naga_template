@@ -23,31 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="525ebacb-fad2-4916-8108-d4939d4127e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/naga.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/naga.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DatesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DatesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PayGreenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PayGreenController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/ajaxCalls.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/ajaxCalls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/date.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/mainBack.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/mainBack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dayOrder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dayOrder.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/futureOrder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/futureOrder.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/oldOrder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/oldOrder.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/menu/barMobile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menu/barMobile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/menu/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menu/cart.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +293,9 @@
       <workItem from="1614553849331" duration="59000" />
       <workItem from="1614691870667" duration="1504000" />
       <workItem from="1614696312379" duration="1730000" />
-      <workItem from="1615746034393" duration="3030000" />
+      <workItem from="1615746034393" duration="3124000" />
+      <workItem from="1615755981125" duration="1319000" />
+      <workItem from="1615906264313" duration="27000" />
     </task>
     <servers />
   </component>
@@ -349,6 +330,10 @@
     <state width="566" height="401" key="SwitcherDM/0.25.1680.946@0.25.1680.946" timestamp="1608033131382" />
     <state width="565" height="401" key="SwitcherDM/0.25.1680.948@0.25.1680.948" timestamp="1607878242529" />
     <state width="566" height="403" key="SwitcherDM/0.25.1680.950@0.25.1680.950" timestamp="1612824250758" />
+    <state x="-1360" y="245" key="Vcs.Push.Dialog.v2" timestamp="1615749068387">
+      <screen x="-1920" y="25" width="1920" height="974" />
+    </state>
+    <state x="-1360" y="245" key="Vcs.Push.Dialog.v2/-1920.25.1920.974/0.25.1680.1025@-1920.25.1920.974" timestamp="1615749068387" />
     <state x="-1775" y="259" width="766" height="676" key="search.everywhere.popup" timestamp="1615747519196">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>

@@ -34,7 +34,7 @@ class PayGreenController extends Controller
             "tva20"=>session('orderList.tva.tva20'),
             "deliTime"=>session('orderList.deliTime'),
             "deliDate"=>session('orderList.deliDate'),
-            "deliType"=>session('orderList.deliType'),
+            //"deliType"=>session('orderList.deliType'),
             "paygreenID"=> $pid
         ]);
 
@@ -155,7 +155,7 @@ class PayGreenController extends Controller
                         "hello"=>"Bonjour!",
                         "body1"=>"Votre commande n°" . $order->orderId . " a bien été enregistrée, ci-joint un récapitulatif de votre commande.<hr>",
                         "body2"=>$orderArray,
-                        "body3"=>"<hr>". $order->deliType ." prévue le ". date('d/m/Y', strtotime($order->deliDate)) . " à " . str_replace(":", "h",$order->deliTime) . ".",
+                        "body3"=>"<hr>Votre commande prévue pour le ". date('d/m/Y', strtotime($order->deliDate)) . " à " . str_replace(":", "h",$order->deliTime) . ".",
                         "thanks"=>"À trés bientôt l'equipe Nâga"
                     ];
                     Mail::to($order->email)->send(new ConfirmOrder($content));

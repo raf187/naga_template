@@ -22,7 +22,7 @@ $(window).ready(function () {
 
     const date = new DateFetch();
     date.deliDate();
-    $(document).change('#deliTime', function(){
+    $('#deliDate').change(function(){
         $('#deliTime').empty();
         $('.deliTimeInput').removeClass('d-none');
         date.collectTime();
