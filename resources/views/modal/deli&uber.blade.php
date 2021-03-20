@@ -5,12 +5,10 @@
                 <h3 class="text-center text-success font-weight-bold py-3">Livraison avec:</h3>
                 <div class="d-flex justify-content-around col-md-12 py-4">
                     <div>
-                        <a href="#" class=""><img src="/media/deliveroo.png" style="height: 90px; width: auto"></a>
-                        <p class="text-center text-success pt-2">Disponible<br>bientôt </p>
+                        <a href="https://deliveroo.fr/fr/menu/nice/la-madeleine/naga-76-boulevard?utm_campaign=organic&utm_medium=referrer&utm_source=menu_share" target="_blank" class=""><img src="/media/deliveroo.png" style="height: 90px; width: auto"></a>
                     </div>
                     <div>
                         <a href="https://www.ubereats.com/fr/cannes/food-delivery/naga/s-7WSv-VRku9bS-YkAonJg" target="_blank" class=""><img src="/media/uber-eats.png" style="height: 90px; width: auto"></a>
-
                     </div>
                 </div>
             </div>
